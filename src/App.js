@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <AppBar position = "static">
-        <Typography variant="h3" bgcolor="black">Details</Typography>
+        <Typography variant="h3" bgcolor="orange">Details</Typography>
       </AppBar>
       <Mui />
     </div>

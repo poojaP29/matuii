@@ -4,9 +4,9 @@ import { useState } from 'react';
 import img from './hero.jpg';
 
 const Item = styled(Paper)(({ theme }) => ({
-    backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
+    backgroundColor: theme.palette.mode === 'dark' ? '#3cb371' : '#3cb371',
     ...theme.typography.body2,
-    padding: theme.spacing(1),
+    padding: theme.spacing(0),
     textAlign: 'center',
     color: theme.palette.text.secondary,
   }));
@@ -64,11 +64,16 @@ function Mui()
                 <div>
                     <TextField sx={{width:"100%",}} id="name" label="Name" value={name} variant="outlined" onChange={(n) => setName(n.target.value)}/>
                 </div>
+                <br></br>
+                <br></br>
                 
             {/* Description */}
                 <div>
                     <TextField sx={{width:"100%",}} id="description" label="Description" multiline rows={4} value={description} onChange={(f) => setDescription(f.target.value)}/>
                 </div>
+                <br></br>
+                <br></br>
+
             {/* Gender */}
                 <div>
                 <FormControl>
@@ -81,11 +86,18 @@ function Mui()
                 </FormControl>
                 </div>
 
+                <br></br>
+                <br></br>
+
                 {/* place */}
 
                 <div>
                     <TextField sx={{width:"100%",}} id="place" label="Place" value={place} variant="outlined" onChange={(n) => setPlace(n.target.value)}/>
            </div>
+
+           <br></br>
+            <br></br>
+            
            {/* submit  */}
                 
                 <div>
