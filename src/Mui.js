@@ -4,7 +4,7 @@ import { useState } from 'react';
 import img from './hero.jpg';
 
 const Item = styled(Paper)(({ theme }) => ({
-    backgroundColor: theme.palette.mode === 'dark' ? '#3cb371' : '#3cb371',
+    backgroundColor: theme.palette.mode === 'dark' ? '#fff' : '#3cb371',
     ...theme.typography.body2,
     padding: theme.spacing(0),
     textAlign: 'center',
