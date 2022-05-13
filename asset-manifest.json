@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/matuii/static/css/main.e6c13ad2.css",
+    "main.js": "/matuii/static/js/main.bcec36b1.js",
+    "static/js/787.76c159a7.chunk.js": "/matuii/static/js/787.76c159a7.chunk.js",
+    "static/media/hero.jpg": "/matuii/static/media/hero.b71d5920a15b402fbf77.jpg",
+    "index.html": "/matuii/index.html",
+    "main.e6c13ad2.css.map": "/matuii/static/css/main.e6c13ad2.css.map",
+    "main.bcec36b1.js.map": "/matuii/static/js/main.bcec36b1.js.map",
+    "787.76c159a7.chunk.js.map": "/matuii/static/js/787.76c159a7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.bcec36b1.js"
+  ]
+}
